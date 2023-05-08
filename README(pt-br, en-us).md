@@ -7,6 +7,6 @@ Todos os meus projetos de HTML5 serão postados aqui.
 
 EN-US
 
-All my projects in HTML5.
+All my HTML5'S projects.
 Still developing my programming skills.
 All my HTML5 projects will be posted here.
