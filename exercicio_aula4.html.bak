@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title> Bring me the horizon </title>
+		<meta charset ="UTF-8"/>
+	</head>
+	<body>
+		<h1> Bring me the horizon </h1>
+		<hr/>
+		<img src= "Bring_Me_The_Horizon.jpg" alt= banda de metalcore bring me the horizon width="500px" height="300px">
+		<p>
+			Bring Me the Horizon (abreviado para BMTH) é uma banda britânica de rock, formada em 2004 em Sheffield, South Yorkshire. O grupo é composto atualmente pelo vocalista Oliver Sykes, o guitarrista Lee Malia, o baixista Matt Kean, o baterista Matt Nicholls e o tecladista Jordan Fish. Eles assinaram contrato com a RCA Records globalmente e com a Columbia Records exclusivamente nos Estados Unidos.
+		</p>
+		<br> Fonte: <a href = "https://pt.wikipedia.org/wiki/Bring_Me_the_Horizon" target= "_blank"> Wikipedia</a>
+		<br/> Voltar <a href ="../aula4.html">
+	</body>
+</html>

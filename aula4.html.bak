@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title> Mexendo com links</title>
+		<meta charset = "UTF-8"/>
+	</head>
+	<body>
+		<h1><center>Metalcore in a nutshell</center></h1>
+		<hr>
+			<p>
+				<ul type= "disc">
+				<li><a href="exercicio_aula4.html">Bring me the horizon</a></li>
+				<li><a href="parte2_exercicio_aula4.html">bullet for my valentine</a></li>
+		
+</html>

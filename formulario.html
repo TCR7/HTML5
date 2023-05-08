@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset= "UTF-8"/>
+	</head>
+	<body>
+		<h1> Agendamento de 28/04/2023 </h1>
+		<form 
+			action="agendaDisney.php"
+			method="get"
+			enctype="multipart/form-data">
+			
+			RESORT:
+				<input name="resort"
+						type="text"
+						value="Disney World Orlando"
+						readonly><br>
+			Senha:
+				<input type="password" name="senha" maxlength="10"> <br>
+				
+			Preenchimento:
+				<progress max="5" value="5" step="2"></progress>
+			<hr>
+			Nome do Responsável:
+				<input type="text" name="responsavel" maxlength="80" size="80" placeholder="Informe nome completo">
+			<br>
+			N&ordm; de familiares (incluindo crianças):
+			<input	type="number"
+					name="familiares"
+					min="1"
+					max="99"> <br>
+					
+				<fieldset>
+					<legend>Sexo</legend>
+					
+					<input	type="radio"
+							name="sexo"
+							value="M"> Masculino
+			
+					<input	type="radio"
+							name="sexo"
+							checked
+							value="F"> Feminino
+				
+				</fieldset>
+				
+				E-mail:
+						<input	type="email"
+								name="email"
+								maxlength="100"
+								size="100"
+								required> <br>
+							
+						<input	type="checkbox"
+								name="recEmails"
+								value="1"
+								checked> Quero receber e-mails<br>
+					<hr>
+					
+					Acesso ao Parque:
+								<input 	type="date"
+										name="data"
+										min="2019-01-01"
+										max="2023-12-31"
+										required>
+				
+					Hora da Entrada:
+									<input 	type="time"
+											name="horaVisita"
+											min="08:00:00"> <br>
+											
+					Cor da pulseira:
+									<input 	type="color"
+											name="corPulseira"
+											value="#030bff"> <br>
+					
+					Atrações:	
+									<input 	type="range"
+											name="atracoes"
+											min="1"
+											max="10"> <br>
+											
+					Foto da Família:
+									<input	type="file"
+											name="foto"> <br>
+											
+					<h3> Preferências de Comida</h3>
+												<textarea	name="comida"
+												placeholder="Insira suas preferências aqui(vegano, carnívoro, etc.)"
+												rows="3"
+												cols="80"></textarea> <br>
+												
+					<hr>
+					
+					<h3> Você concorda com os termos? </h3>
+					<select name="aceite">
+						<option value= "s"> Sim </option>
+						<option value= "n"> Não </option>
+					</select>
+					
+					<br>
+									
+					<input type="submit" value="Enviar">
+		</form>
+			
+	</body>
+</html>
